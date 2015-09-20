@@ -1,0 +1,9 @@
+{
+    "name": "tildelan15-autumn",
+    "description": "TildeLAN Autumn Infoscreen",
+    "authors": [
+        "Toni Kaija <diftraku@gmail.com>"
+    ],
+    "homepage": "http://tilde.fi/lanit/",
+    "license": "MIT"
+}
