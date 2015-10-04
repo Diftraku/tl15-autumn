@@ -1,0 +1,105 @@
+/*
+ * The MIT License (MIT)
+ *
+ * Copyright (c)  2015  Tilde ry
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+/*
+ * This stylesheet is greatly copied from the awesome
+ * Summer Games Done Quick 2015 NodeCG bundle.
+ * https://github.com/GamesDoneQuick/sgdq15-layouts/
+ */
+
+#container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 720px;
+    /* 1080p layout
+    width: 1920px;
+    height: 1080px;*/
+    overflow: hidden;
+}
+
+#sidebar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 326px;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /*
+     * Tilde branding
+     */
+    background-color: #002534;
+    color: #8ABDD4;
+    border-left: 0.1em solid #E95D0F;
+}
+
+#logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 144px;
+    text-align: center;
+}
+
+#logo img {
+    /*
+     * Static size for the 400x217 pixel Tilde-logo
+     */
+    max-width: 270px;
+    max-height: 144px;
+}
+
+#sponsors {
+    position: absolute;
+    top: 144px;
+    height: 432px;
+    width: 100%;
+    text-align: center;
+}
+
+#sponsors .sponsor {
+    width: 100%;
+    height: 134px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+#sponsors .sponsor img {
+    max-height: 134px;
+    max-width: 260px;
+}
+
+#clock {
+    position: absolute;
+    top: 576px;
+    height: 144px;
+    width: 100%;
+    text-align: center;
+    margin-top: 31px;
+}
