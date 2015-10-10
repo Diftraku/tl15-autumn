@@ -2,9 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>The Big Screen - Programme Only</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/stream.css" />
+    <!-- Force loading the libraries before content -->
+    <script src="js/lib/jquery-2.1.4.min.js" type="application/javascript"></script>
+    <script src="js/lib/moment.min.js" type="application/javascript"></script>
 </head>
-<body>
-
+<body class="no-casters">
+<div id="container">
+    <div id="sidebar">
+        <div id="logo">
+            <img src="img/logo.png" />
+        </div>
+        <!--<div id="casters">
+            <div style="background: #000;width: 100%;height: 100%;"></div>
+        </div>-->
+        <div id="current-programme">
+            <h1>Programme Name</h1>
+            <span class="time">Time Start-Stop</span>
+            <span class="description">Description</span>
+        </div>
+        <div id="clock">
+            <span class="time">Timey Whimey</span><br />
+            <span class="date">Date</span>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="sponsors">
+            <div class="sponsor">
+                <img src="img/sponsors/logo_asus.png" />
+            </div>
+            <div class="sponsor">
+                <img src="img/sponsors/logo_avanade.png" />
+            </div>
+            <div class="sponsor">
+                <img src="img/sponsors/logo_metropolia.png" />
+            </div>
+            <div class="sponsor">
+                <img src="img/sponsors/logo_fantasiapelit.png" />
+            </div>
+            <div class="sponsor">
+                <img src="img/sponsors/logo_reaktor.png" />
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Load our stuff at the end -->
+<script src="js/clock.js" type="application/javascript"></script>
+<script src="js/base.js" type="application/javascript"></script>
 </body>
 </html>
