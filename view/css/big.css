@@ -30,8 +30,8 @@
 
 #sponsors {
     position: absolute;
-    top: 144px;
-    height: 432px;
+    top: 180px;
+    height: 900px;
     width: 100%;
     text-align: center;
 }
@@ -39,7 +39,7 @@
 #sponsors .sponsor {
     position: relative;
     width: 100%;
-    height: 134px;
+    height: 170px;
     margin-bottom: 10px;
     vertical-align: middle;
 }
@@ -59,8 +59,8 @@
 
 #clock {
     position: absolute;
-    top: 576px;
-    height: 113px;
+    bottom: 0px;
+    height: 180px;
     width: 100%;
     text-align: center;
     padding-top: 31px;

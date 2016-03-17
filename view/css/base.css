@@ -37,6 +37,7 @@ html,body {
     font-family: 'Roboto', sans-serif;
     font-size:34px;
     background-color: #010D13;
+    background-image: url(../img/background/1080p.png);
     color: #FFF;
 }
 
@@ -44,11 +45,12 @@ html,body {
     position: absolute;
     top: 0;
     left: 0;
+    /* 720p layout
     width: 1280px;
-    height: 720px;
-    /* 1080p layout
+    height: 720px;/**/
+    /* 1080p layout*/
     width: 1920px;
-    height: 1080px;*/
+    height: 1080px;/**/
     overflow: hidden;
 }
 
@@ -66,9 +68,9 @@ html,body {
     /*
      * Tilde branding
      */
-    background-color: #002534;
+    background-color: transparent;
     color: #8ABDD4;
-    border-left: 0.1em solid #E95D0F;
+    /*border-left: 0.1em solid #E95D0F;*/
 }
 
 

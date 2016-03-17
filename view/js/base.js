@@ -22,3 +22,40 @@
  * THE SOFTWARE.
  */
 
+sponsor_images = [
+    'img/vectors/logo_asus.svg',
+    'img/vectors/logo_avanade.svg',
+    'img/vectors/logo_fantasiapelit.svg',
+    'img/vectors/logo_metropolia.svg',
+    'img/vectors/logo_microsoft.svg',
+    'img/vectors/logo_reaktor.svg',
+    'img/vectors/logo_smilehouse.svg',
+    'img/vectors/logo_teho.svg'
+];
+past_numbers = [];
+
+$(document).ready(function() {
+    sponsorUpdater()
+});
+
+function sponsorCarousel(){
+    var i, random_number, cur_pos, image;
+    random_number = Math.ceil(Math.random()*7);
+    var sponsors = $("#sponsors");
+    sponsors = sponsors.find('div.sponsor img');
+    sponsors.fadeOut('fast', function() {
+        for (i=0;i<sponsor_count;i++) {
+            cur_pos = random_number+i;
+            if(cur_pos > sponsor_images.length-1) {
+                cur_pos = cur_pos-sponsor_images.length;
+            }
+            //console.log('Replaced `'+$(sponsors[i]).attr('src')+'` with `'+sponsor_images[cur_pos]+'` at pos '+i, cur_pos, random_number);
+            image = $(sponsors[i])
+            image.attr('src', sponsor_images[cur_pos]);
+        }
+    }).delay('300').fadeIn('fast');
+}
+function sponsorUpdater () {
+    sponsorCarousel();
+    setTimeout(sponsorUpdater, 10*60*1000);
+}
