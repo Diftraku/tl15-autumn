@@ -24,13 +24,12 @@
 
 sponsor_images = [
     'img/vectors/logo_asus.svg',
+    'img/vectors/logo_accenture.svg',
     'img/vectors/logo_avanade.svg',
     'img/vectors/logo_fantasiapelit.svg',
     'img/vectors/logo_metropolia.svg',
-    'img/vectors/logo_microsoft.svg',
     'img/vectors/logo_reaktor.svg',
-    'img/vectors/logo_smilehouse.svg',
-    'img/vectors/logo_teho.svg'
+    'img/vectors/logo_symbio.svg'
 ];
 past_numbers = [];
 

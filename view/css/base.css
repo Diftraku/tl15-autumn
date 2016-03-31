@@ -37,7 +37,7 @@ html,body {
     font-family: 'Roboto', sans-serif;
     font-size:34px;
     background-color: #010D13;
-    background-image: url(../img/background/1080p.png);
+    background-image: url(../img/background/bgc1.png);
     color: #FFF;
 }
 
@@ -68,7 +68,7 @@ html,body {
     /*
      * Tilde branding
      */
-    background-color: transparent;
+    background-color: rgba(0,0,0,0.75);
     color: #8ABDD4;
     /*border-left: 0.1em solid #E95D0F;*/
 }
@@ -76,7 +76,7 @@ html,body {
 
 #logo {
     position: absolute;
-    top: 0;
+    top: 30px;
     right: 0;
     width: 100%;
     height: 144px;
