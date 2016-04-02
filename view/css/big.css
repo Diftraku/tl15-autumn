@@ -28,6 +28,11 @@
  * https://github.com/GamesDoneQuick/sgdq15-layouts/
  */
 
+#slideshow iframe {
+    /* Adjust for the bright white spots and make the text a little more readable */
+    background-color: rgba(0,0,0,0.45);
+}
+
 #sponsors {
     position: absolute;
     top: 180px;
