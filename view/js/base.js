@@ -29,7 +29,8 @@ sponsor_images = [
     'img/vectors/logo_fantasiapelit.svg',
     'img/vectors/logo_metropolia.svg',
     'img/vectors/logo_reaktor.svg',
-    'img/vectors/logo_symbio.svg'
+    'img/vectors/logo_symbio.svg',
+    'img/tinyfin.jpg'
 ];
 past_numbers = [];
 
