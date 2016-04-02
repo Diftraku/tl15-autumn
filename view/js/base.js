@@ -39,7 +39,7 @@ $(document).ready(function() {
 
 function sponsorCarousel(){
     var i, random_number, cur_pos, image;
-    random_number = Math.ceil(Math.random()*7);
+    random_number = Math.ceil(Math.random()*(sponsor_images.length-1));
     var sponsors = $("#sponsors");
     sponsors = sponsors.find('div.sponsor img');
     sponsors.fadeOut('fast', function() {
